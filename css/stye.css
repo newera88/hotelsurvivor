@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: lightgray;
+}
+#topbar{
+    display: inline-block;
+    width: 100%;
+    background: lightyellow;
+
+}
+
+.center-container{
+    max-width: 1200px;
+    width:70%;
+    margin: 0 auto;
+    
+
+}
+
+#logo{
+    color:aquamarine;
+    font-size: 50px;
+    
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-right: 30px;
+    padding-top: 70px;
+    
+}
+header #logo,header nav, header nav li{
+    display: inline-block;
+}
+
+header nav ol{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding:60px;
+    
+}
+
+header nav li{
+    margin-right: 30px;
+}
+
+header nav li:last-child{
+    margin-right: 0;
+}
+
+header li a{
+    text-decoration: none;
+    color:orange;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    
+    
+}
+#topbar .subscribe{
+    color:aquamarine;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#hero{
+    background: url(../foodone.jpg) no-repeat center center/cover;
+    height: 600px;
+    margin: 0;
+    
+}
+
+#hero h1{
+    margin-left:300px;
+    color: white;
+    padding-top: 300px;
+    display:inline-block;
+    font-size:60px;
+    margin-bottom:0;
+}
+#hero p{
+    color: white;
+    font-size: 22px;
+    line-height: 1.3rem;
+    margin-left:450px ;
+}
+
+#hero #hero-cta{
+    color:orange;
+    margin-left: 550px;
+    font-weight: 900;
+    border: none;
+
+}
+#coconut{
+    
+    margin: 0;
+    height: 400px;
+    color: white;
+}
+
+#coconut .image-1{
+    background:url(../superfood.jpg) no-repeat center center/cover;
+    float: left;
+    width: 50%;
+    min-height: 400px;
+}
+
+#coconut .content-co{
+    float: right;
+    width: 50%;
+    height:400px;
+    background: aquamarine;
+    text-align: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+#coconut .content-co h3{
+    font-size: 40px;
+    padding-bottom: 20px;
+    line-height: 1.2rem;
+    font-weight: bold;
+}
+
+#coconut .content-co p{
+    line-height: 1.7rem;
+    padding-bottom: 40px;
+}
+
+/* utility */
+.btn-1{
+    padding: 20px 15px;
+    background: white;
+    color: orange;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 900px;
+    border: none;
+}
+
+    
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  .clear{
+      clear: both;
+  }
+
+  #boxes{
+      height: 400px;
+      
+      text-align: center;
+  }
+
+  #boxes .box{
+      float: left;
+      width: 33.33%;
+      box-sizing: border-box;
+      height: 400px;
+      background-color: yellow;
+      padding-top: 90px;
+  }
+      
+  
+
+
+  .box h3{
+      font-size: 50px;
+      padding-bottom: 30px;
+      font-weight: bold;
+  }
+  .box p{
+      padding-bottom: 40px;
+      line-height: 1.7rem;
+      font-size: 20px;
+  }
+  .orange{
+      color: orange;
+  }
+  .purple{
+      color: plum;
+  }
+  .green{
+      color: powderblue;
+  }
+  .purple .img-vege{
+      width: 100px;
+      display: inline-block;
+      margin: auto;
+
+  }
+
+  /* footer */
+  footer p{
+      color:orange;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 900;
+      height: 100px;
+      line-height: 100px;
+      background: lightyellow;
+      
+  }
+
+  /* about section */
+  #heros{
+      background:coral url(../tangerine.jpg) no-repeat center center/cover;
+
+      height: 600px;
+      width: 100%;
+  }
+  .aboutshow-content{
+      text-align: center;
+      color: #fff;
+      padding-top: 170px;
+  }
+
+  .aboutshow-content h1{
+      font-size: 50px;
+      padding-bottom: 30px;
+      font-weight: 900;
+      
+      line: height 1.4em; 
+  }
+
+  .aboutshow-content p{
+      padding-bottom: 40px;
+      list-style: 1.7rem;
+      font-size: 25px;
+  }
+#about-cta{
+     padding: 15px 15px;
+     color: orange;
+     border: none;
+     font-size: 18px;
+     border-radius: 10px;
+     cursor: pointer;
+}
+
+
+.content-about{
+    text-align: center;
+    background: aquamarine;
+    height: 300px;
+}
+
+.content-about ul{
+
+    padding-top: 80px;
+    list-style-type: none;
+}
+
+.content-about ul li{
+    color: white;
+    font-size: 50px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
